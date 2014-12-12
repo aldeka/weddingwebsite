@@ -1,0 +1,280 @@
+@bgcolor: #003055;
+@anotherblue: #0084B4;
+@highlight: #FFF900;
+@vgrid: 24px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-size: @vgrid;
+  line-height: 1.5em;
+}
+
+h1, .jumbotron h1 {
+  font-size: @vgrid * 5; 
+  line-height: @vgrid * 6;
+  margin-bottom: @vgrid;
+  font-style: italic;
+}
+
+h2, .jumbotron h2 { 
+  font-size: @vgrid * 2; 
+  line-height: @vgrid * 3;
+  margin-bottom: @vgrid; 
+}
+h3 { 
+    font-size: @vgrid * 1.5;
+    line-height: @vgrid * 2;
+}
+
+h4 { 
+    font-size: @vgrid; 
+    line-height: @vgrid; 
+}
+
+p, ul, ol {
+    margin-bottom: @vgrid;
+    line-height: @vgrid * 1.666;
+    /*font-size: @vgrid * 5 / 6;*/
+}
+
+ul, ol {
+    margin-left: @vgrid;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-top: @vgrid / 2;
+    margin-bottom: @vgrid / 2;
+}
+
+.left { 
+  float: left; 
+  margin: 0 @vgrid @vgrid 0; 
+}
+.right { 
+  float: right; 
+  margin: 0 0 @vgrid @vgrid; 
+}
+
+.callout {
+  border: 1px solid #ddd;
+  padding: @vgrid / 2 - 1 @vgrid /2 + 1;
+  margin-bottom: @vgrid; 
+}
+
+.callout :last-child { 
+  margin-bottom: 0; 
+}
+
+html, body {
+  background: @bgcolor;
+  color: white;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, .heart-link {
+    font-family: 'Crimson Text', cursive;
+    font-weight: 700;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h3 {
+  font-variant: small-caps;
+}
+
+a {
+    color: @bgcolor + #888;
+    &:hover {
+        color: @highlight;
+    }
+}
+
+section {
+    padding: @vgrid * 2 0;
+}
+
+.row {
+    margin: 0 0 @vgrid 0;
+}
+
+#about-us p {
+    &:first-letter {  
+        font-size: @vgrid * 2;  
+    }
+    &:first-line {
+        font-weight: 600;
+    }
+}
+
+.jumbotron h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  font-style: inherit;
+  color: rgba(255,255,255,.6);
+  font-size: @vgrid * 2;
+}
+
+.navbar {
+    background: darken(@bgcolor, 10%);
+    text-shadow: 0 1px 2px black;
+    box-shadow: 1px 0 2px black;
+    font-family: 'Crimson Text', serif;
+    font-variant: small-caps;
+
+    .nav li a {
+        color: @bgcolor + #888;
+        &:hover {
+            background: darken(@bgcolor, 25%);
+            color: white;
+        }
+    }
+
+    .nav .active a {
+        color: @highlight;
+    }
+}
+
+.navbar-toggle {
+  float: left;
+  .icon-bar {
+    background-color: white;
+  }
+}
+
+.highlightbg {
+    background: rgba(255,255,255,.2);
+}
+
+.header, #invitation {
+    text-align: center;
+}
+
+#invitation {
+    font-size: @vgrid;
+    font-family: "Crimson Text", serif;
+    line-height: @vgrid * 2;
+    font-weight: 400;
+    font-variant: small-caps;
+
+    .parent, .date, .venue {
+        font-weight: 600;
+    }
+
+    .parents, .effianced, .particulars {
+        margin-bottom: @vgrid;
+        display: block;
+    }
+    .ampersand {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        font-weight: 700;
+    }
+    .effianced {
+        font-size: @vgrid * 2;
+        line-height: @vgrid * 3;
+        font-weight: 700;
+    }
+
+    .parents, .effianced {
+      font-style: italic;
+      font-variant: normal;
+    }
+}
+
+.footnote {
+    font-style: italic;
+}
+
+.q {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.attendee-list {
+    padding-left: @vgrid * 2;
+}
+
+.alert-success {
+  color: inherit;
+  background-color: @bgcolor;
+  border-color: darken(@bgcolor, 5%);
+}
+
+form label {
+  font-weight: inherit;
+}
+
+.radio, .checkbox {
+  &:hover {
+    color: @highlight;
+  }
+  input {
+    margin-top: @vgrid / 2 !important;
+  }
+}
+
+input, .form-control {
+  font-size: @vgrid;
+}
+
+input[type="text"], #login input {
+  height: @vgrid * 2;
+}
+
+.btn, .btn-lg {
+  font-size: @vgrid;
+}
+
+em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+#heart {
+  padding-bottom: 0;
+  .jumbotron {
+    background-color: @bgcolor;
+    padding-bottom: @vgrid * 3;
+    margin-bottom: 0;
+  }
+}
+
+.heart-link {
+  font-style: italic;
+}
+
+#photos img {
+  margin-bottom: @vgrid;
+}
+
+#availability {
+  font-weight: 300;
+
+  .row {
+    //background: @highlight;
+    //color: black;
+    margin-bottom: 0;
+    padding: 5px 0;
+
+    a {
+      //color: black;
+      text-decoration: underline;
+    }
+  }
+  .taken {
+    background: none;
+    color: rgba(255,255,255,.5);
+  }
+  .header-row {
+    font-weight: bold;
+    background: none;
+    color: white;
+  }
+}

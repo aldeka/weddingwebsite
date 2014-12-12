@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+h1,
+.jumbotron h1 {
+  font-size: 120px;
+  line-height: 144px;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+h2,
+.jumbotron h2 {
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 24px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 48px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 24px;
+}
+p,
+ul,
+ol {
+  margin-bottom: 24px;
+  line-height: 39.983999999999995px;
+}
+ul,
+ol {
+  margin-left: 24px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.left {
+  float: left;
+  margin: 0 24px 24px 0;
+}
+.right {
+  float: right;
+  margin: 0 0 24px 24px;
+}
+.callout {
+  border: 1px solid #ddd;
+  padding: 11px 13px;
+  margin-bottom: 24px;
+}
+.callout :last-child {
+  margin-bottom: 0;
+}
+html,
+body {
+  background: #003055;
+  color: white;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1,
+h2,
+h3,
+.heart-link {
+  font-family: 'Crimson Text', cursive;
+  font-weight: 700;
+}
+h2 {
+  font-style: italic;
+}
+h3 {
+  font-variant: small-caps;
+}
+a {
+  color: #88b8dd;
+}
+a:hover {
+  color: #fff900;
+}
+section {
+  padding: 48px 0;
+}
+.row {
+  margin: 0 0 24px 0;
+}
+#about-us p:first-letter {
+  font-size: 48px;
+}
+#about-us p:first-line {
+  font-weight: 600;
+}
+.jumbotron h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  font-style: inherit;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 48px;
+}
+.navbar {
+  background: #001322;
+  text-shadow: 0 1px 2px black;
+  box-shadow: 1px 0 2px black;
+  font-family: 'Crimson Text', serif;
+  font-variant: small-caps;
+}
+.navbar .nav li a {
+  color: #88b8dd;
+}
+.navbar .nav li a:hover {
+  background: #000000;
+  color: white;
+}
+.navbar .nav .active a {
+  color: #fff900;
+}
+.navbar-toggle {
+  float: left;
+}
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+.highlightbg {
+  background: rgba(255, 255, 255, 0.2);
+}
+.header,
+#invitation {
+  text-align: center;
+}
+#invitation {
+  font-size: 24px;
+  font-family: "Crimson Text", serif;
+  line-height: 48px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+#invitation .parent,
+#invitation .date,
+#invitation .venue {
+  font-weight: 600;
+}
+#invitation .parents,
+#invitation .effianced,
+#invitation .particulars {
+  margin-bottom: 24px;
+  display: block;
+}
+#invitation .ampersand {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 700;
+}
+#invitation .effianced {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 700;
+}
+#invitation .parents,
+#invitation .effianced {
+  font-style: italic;
+  font-variant: normal;
+}
+.footnote {
+  font-style: italic;
+}
+.q {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.attendee-list {
+  padding-left: 48px;
+}
+.alert-success {
+  color: inherit;
+  background-color: #003055;
+  border-color: #00223b;
+}
+form label {
+  font-weight: inherit;
+}
+.radio:hover,
+.checkbox:hover {
+  color: #fff900;
+}
+.radio input,
+.checkbox input {
+  margin-top: 12px !important;
+}
+input,
+.form-control {
+  font-size: 24px;
+}
+input[type="text"],
+#login input {
+  height: 48px;
+}
+.btn,
+.btn-lg {
+  font-size: 24px;
+}
+em {
+  font-style: normal;
+  font-weight: 600;
+}
+#heart {
+  padding-bottom: 0;
+}
+#heart .jumbotron {
+  background-color: #003055;
+  padding-bottom: 72px;
+  margin-bottom: 0;
+}
+.heart-link {
+  font-style: italic;
+}
+#photos img {
+  margin-bottom: 24px;
+}
